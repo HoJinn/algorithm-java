@@ -7,7 +7,6 @@ public class variable {
 		/* 정수 
 		 * 변수에 값을 대입하는 방법을 보여주는 예제 
 		 */ 
-		
 		int a; 
 		a = 1; 
 		System.out.println(a+1); // 2
@@ -18,7 +17,6 @@ public class variable {
 		/* 실수 
 		 * 실수를 담는 방법을 보여주는 예제 
 		 */
-		
 		double b = 1.1; 
 		System.out.println(b+1.1); // 2.2 
 		
