@@ -1,6 +1,6 @@
 package studytestJava01;
 
-public class GuguStudy {
+public class Gugu {
 
 	//반복문 활용한 구구단 출력해보기.
 	public static void main(String[] args) {
