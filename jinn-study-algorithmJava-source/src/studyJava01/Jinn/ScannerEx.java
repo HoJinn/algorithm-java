@@ -1,4 +1,4 @@
-package studyJava01;
+package studyJava01.Jinn;
 
 import java.util.Scanner;
 

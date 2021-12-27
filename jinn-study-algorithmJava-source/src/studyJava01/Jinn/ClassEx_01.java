@@ -1,4 +1,4 @@
-package studyJava01;
+package studyJava01.Jinn;
 
 public class ClassEx_01 {
 
@@ -6,9 +6,7 @@ public class ClassEx_01 {
 		
 		ClassB cd = new ClassB(); 
 		cd.print(); 
-		
 	}
-	
 	public void print() { 
 		System.out.println("여기는 ClassA");
 	}
@@ -18,4 +16,3 @@ class ClassB{
 		System.out.println("여기는 ClassB");
 	}
 }
-

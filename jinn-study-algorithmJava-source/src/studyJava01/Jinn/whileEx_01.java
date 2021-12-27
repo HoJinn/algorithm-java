@@ -1,4 +1,4 @@
-package studyJava01;
+package studyJava01.Jinn;
 
 public class whileEx_01 {
 
