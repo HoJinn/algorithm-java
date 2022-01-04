@@ -1,6 +1,6 @@
 package studyJava01.Jinn;
 
-public class ExceptionEx {
+public class ExceptionEx_01 {
 
 	public static void main(String[] args) {
 		System.out.println(1);
