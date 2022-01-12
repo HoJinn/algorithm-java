@@ -2,7 +2,7 @@ package studyJava07.util;
 
 import java.util.Random;
 
-public class RandomEx {
+public class RandomEx_01 {
 	
 	/* 
 	 * util이라는 단어를 사전에 찾아보면 "쓸모있는, 유용한, 도움이 되는..."의 의미를 갖는 단어이다. 
