@@ -3,7 +3,7 @@ package studyJava08.Collection;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class ArrayListCompareLinkedList {
+public class ArrayListCompareLinkedListEx_01 {
 
 	public static void main(String[] args) {
 		
