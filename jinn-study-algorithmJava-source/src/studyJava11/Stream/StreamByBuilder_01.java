@@ -2,7 +2,7 @@ package studyJava11.Stream;
 
 import java.util.stream.Stream;
 
-public class StreamByBuilder {
+public class StreamByBuilder_01 {
 	
 	/*
 	 * 메서드를 이용하여 스트림 생성하기 
