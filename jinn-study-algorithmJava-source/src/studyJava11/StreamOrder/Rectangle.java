@@ -1,6 +1,7 @@
-package studyJava08.Collection.ArrayList;
+package studyJava11.StreamOrder;
 
 public class Rectangle extends Shape{
+	
 	// 필드 
 	int w,h; 
 	
@@ -21,6 +22,11 @@ public class Rectangle extends Shape{
 	@Override 
 	double length() { 
 		return ( w + h) *2;
+	}
+	
+	@Override
+	public String toString() { 
+		return "넓이 : " +this.area();
 	}
 	
 }

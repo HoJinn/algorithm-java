@@ -1,6 +1,7 @@
-package studyJava08.Collection.ArrayList;
+package studyJava11.StreamOrder;
 
-abstract class Shape {
+abstract class Shape implements Comparable<Shape> {
+	
 	//필드 
 	int x,y; 
 	
@@ -21,6 +22,12 @@ abstract class Shape {
 	public String getLocation() { 
 		return "x:" + x + ",y" + y;
 	}
+	
+	@Override 
+	public int compareTo(Shape s) { 
+		return (int)(this.area()-s.area());
+	}
+	
 }
 	
 	
