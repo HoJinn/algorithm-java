@@ -1,6 +1,5 @@
 package studyJava12.Thread;
 
-import java.util.Map.Entry;
 
 public class ThreadEx_06 {
 	
