@@ -15,9 +15,9 @@ public class InputStreamEx_01 {
 		
 		try{
 		InputStream in = System.in;
-		int date = 0;
-		while ((date=in.read()) != -1) { 
-			System.out.println((char)date);
+		int data = 0;
+		while ((data=in.read()) != -1) { 
+			System.out.println((char)data);
 		}
 	} catch (IOException e) {
 
