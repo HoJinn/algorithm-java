@@ -1,6 +1,5 @@
 package studyJava13.IO;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
