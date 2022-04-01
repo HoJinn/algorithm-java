@@ -12,7 +12,7 @@ public class URLConnectionEx_01 {
 	public static void main(String[] args) {
 		URL url = null; 
 		String address = 
-					"https://www.egovframe.go.kr/EgovIntro.jsp?menu=1&submeni=1";
+					"http://m.gooda.co.kr/product/%EA%B5%AC%EB%8B%A4-%EC%8B%9C%ED%8A%B8%EC%84%B8%EC%A0%9C-1set-100%EC%9E%85/15/category/23/display/1/";
 		BufferedReader br = null; 
 		String readline = ""; 
 		
