@@ -2,7 +2,7 @@ package studyJava14.Network;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.SocketException;
+import java.net.InetAddress;
 
 public class UDPServerEx_01 {
 
@@ -33,11 +33,11 @@ public class UDPServerEx_01 {
 				System.out.println("클라이언트 메시지 : "+msg);
 				
 				// 클라이언트 아이피 
-//				IntAddress address = inPacket.getAddress(); 
+				InetAddress address = inPacket.getAddress(); 
 				// 클라이언트 포트 
-//				int port = inPacket.getAddress();
-//				System.out.println("클라이언트 주소 : " + address);
-//				System.out.println("클라이언트포트번호 : " + port);
+				int port = inPacket.getPort();
+				System.out.println("클라이언트 주소 : " + address);
+				System.out.println("클라이언트포트번호 : " + port);
 			}
 			
 		} catch (Exception e) {
