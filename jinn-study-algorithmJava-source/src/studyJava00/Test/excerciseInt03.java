@@ -29,4 +29,16 @@ public class excerciseInt03 {
 		
 		return random == 0? "앞" : "뒷";
 	}
+	
+	
+	/* 
+	 * "가위", "바위", "보" 문자열 중에 하나 랜덤으로 반환하는 메소드를 만들어보자.
+	 * 
+	 */
+	public static String rockPaperScissors() {
+		
+		int random = excerciseInt03.makeRandom(0, 2);
+		
+		return random == 0? "가위": random == 1? "바위" : "보";
+	}
 }
