@@ -6,7 +6,7 @@ public class Application {
 		
 //		System.out.println(excerciseInt03.Coin());
 		System.out.println(excerciseInt03.rockPaperScissors());
-		
+		System.out.println(excerciseInt03.randomAlphabet(8));
 	}
 
 }

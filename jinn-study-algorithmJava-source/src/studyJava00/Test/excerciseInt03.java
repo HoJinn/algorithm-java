@@ -41,4 +41,42 @@ public class excerciseInt03 {
 		
 		return random == 0? "가위": random == 1? "바위" : "보";
 	}
+	
+	/* 
+	 * 매개변수로 넘어온 숫자 갯수만큼 임의의 영어 알파벳들을 
+	 * String으로 반환하는 메소드를 만들어보자. 
+	 */
+	public static String randomAlphabet(int length) {
+		
+		String alphaRandom = "";
+		for(int i = 0; i < length; i++) {
+			
+			alphaRandom += (char) excerciseInt03.makeRandom('A', 'Z');
+		}
+		
+		return alphaRandom;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
