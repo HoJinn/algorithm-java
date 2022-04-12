@@ -55,28 +55,22 @@ public class excerciseInt03 {
 		}
 		
 		return alphaRandom;
+	} 
+		/* 
+		 * randomAlphabet 출력되는 대문자 영단어를 소문자 
+		 * String으로 반환하는 메소드를 만들어보자 
+		 */
+	public static String LowerAlphabet(int length) { 
+		
+		String randomAlpha = randomAlphabet(length);
+		String resultAlpha = "";
+		
+		for(int i = 0; i < length; i++) {
+			resultAlpha += (char)(randomAlpha.charAt(i) + 32);
+		}
+		return resultAlpha;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
