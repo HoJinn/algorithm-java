@@ -15,6 +15,27 @@ public class Calculator {
 		return sum; 
 	}
 	
+	/* 
+	 * 3개의 매개변수 중 더 큰수를 출력하는 메소드를 만들어보자 
+	 */
+	
+	public void checkMaxNumber(int a,int b, int c) { 
+		int max = a; 
+		
+		if(a > b) { 
+			max = a;
+		}
+		if(b > a) { 
+			max = b; 
+		if(c > a) { 
+			max = c;
+		}
+		System.out.println("세숫자 중 큰 수는 " + max + "이다. ");
+		
+		return;
+		}
+	}
+	
 	
 
 }

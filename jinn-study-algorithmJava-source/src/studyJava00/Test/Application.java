@@ -13,6 +13,7 @@ public class Application {
 		
 		System.out.println("1부터 10까지의 합 : "  + calculator.sum1to10());
 	
+		calculator.checkMaxNumber(10, 20, 2);
 	}
 
 }
