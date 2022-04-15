@@ -35,7 +35,14 @@ public class Calculator {
 		return;
 		}
 	}
-	
-	
+	/* 
+	 * 2개의 매개변수의 합을 반환하는 메소드를 만들어보자.
+	 */
+	public int sumTwoNumber(int first, int second) { 
+		int sum = first + second; 
+		
+		return sum; 
+	}
+		
 
 }
