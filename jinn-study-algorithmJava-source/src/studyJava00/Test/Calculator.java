@@ -43,6 +43,11 @@ public class Calculator {
 		
 		return sum; 
 	}
+	/* 
+	 * 	첫째 매개변수 , 두번째 매개변수를 뺀 값을 반환하는 메소드를 만들어보자. 
+	 */
+	public int minusTwoNumber(int first, int second){
 		
-
+		return first - second;
+	}
 }
