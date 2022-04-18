@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class excerciseInt04 {
 
 	public static void main(String[] args) {
-		/* 정수를 입력 받아 그 수가 짝수인지 홀수인지 판단해서 결과를 출력하세요
+		/* 정수를 입력 받아 짝수인지 홀수인지 판단해서 결과를 출력하세요
 		 * 짝수인 경우 "짝수" 출력, 홀수인 경우 "홀수" 출력 
 		 */
 
