@@ -4,7 +4,6 @@ public class excerciseArr01 {
 
 	/* 하나의 배열엔 1부터 10까지 10개의 정수가 저장되어 있다. 각각의 값을 다른 배열의 해당 인덱스 값에 
 	 * 제곱값을 대입하는 코드를 완성하시오.
-	 * 
 	 */
 	public static void main(String[] args) {
 			
