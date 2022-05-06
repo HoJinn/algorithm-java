@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerExRe_02 {
 
 	/* 
-	 * Scanner기본 예제 사용자 변수받기 한번 더 복습해보자.
+	 * Scanner기본예제 사용자변수 받기 한번 더 복습해보자.
 	 */
 		public static void main(String[] args) {
         
