@@ -22,12 +22,16 @@ public class HashTableEx_02 {
 		
 		System.out.println(ht);  // 결과 출력 
 		
-		// HashTable 값 삭제하기 
-		ht.remove("2"); 
-		System.out.println(ht); // 결과 출력 
+//		// HashTable 값 삭제하기 
+//		ht.remove("2"); 
+//		System.out.println(ht); // 결과 출력 
 		
-		ht.clear(); 
-		System.out.println(ht); // 결과 출력 
+//		ht.clear(); 
+		
+		// HashTable 크기 구하기
+		System.out.println("Size : " + ht.size()); // 결과 출력 
+		
+		
 
 	}
 
