@@ -1,6 +1,7 @@
 package studyJava08.Collection;
 
 import java.util.Hashtable;
+import java.util.Map;
 
 public class HashTableEx_02 {
 	
@@ -28,8 +29,13 @@ public class HashTableEx_02 {
 		
 //		ht.clear(); 
 		
-		// HashTable 크기 구하기
-		System.out.println("Size : " + ht.size()); // 결과 출력 
+//		// HashTable 크기 구하기
+//		System.out.println("Size : " + ht.size()); // 결과 출력 
+		
+		// HashTable 값 출력하기 (향상된for문)
+		for(Map.Entry<String, String>e : ht.entrySet())
+			System.out.println("key : " + e.getKey() + " , Value : " + e.getValue());
+		
 		
 		
 
