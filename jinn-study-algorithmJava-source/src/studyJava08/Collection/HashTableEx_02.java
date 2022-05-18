@@ -1,7 +1,9 @@
 package studyJava08.Collection;
 
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class HashTableEx_02 {
 	
@@ -33,12 +35,23 @@ public class HashTableEx_02 {
 //		System.out.println("Size : " + ht.size()); // 결과 출력 
 		
 		// HashTable 값 출력하기 (향상된for문)
-		for(Map.Entry<String, String>e : ht.entrySet())
-			System.out.println("key : " + e.getKey() + " , Value : " + e.getValue());
-		
-		
-		
+//		for(Map.Entry<String, String>e : ht.entrySet())
+//			System.out.println("key : " + e.getKey() + " , Value : " + e.getValue());
 
+		// HashTable 값 출력하기 (Iterator)
+		Iterator<Entry<String,String>> iter = ht.entrySet().iterator();
+		while(iter.hasNext()) 
+		{ 
+			Map.Entry<String, String> entry = iter.next(); 
+			System.out.println("Key : " + entry.getKey() + ". Value : " + entry.getValue());
+			
+		} System.out.println("-------------------");
+		
+		Iterator<String> iter2 = ht.keySet().iterator(); 
+		while(iter2.hasNext())
+		{ 
+			String key = iter2.next(); 
+			System.out.println("key : " + key + ".Value : " + ht.get(key)); 
+		}
 	}
-
 }
