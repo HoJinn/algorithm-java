@@ -18,7 +18,12 @@ public class ArrayListEx_01 {
 		al.add("Hello"); 
 		al.add(1,"World"); 
 		
-		System.out.println(al);
+		//값 변경하기 
+		System.out.println("초기값" + al);
+		
+		al.set(1, "World"); 
+		
+		System.out.println("변경된 값 : " + al);
 	}
 
 }
