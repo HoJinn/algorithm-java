@@ -30,16 +30,18 @@ public class ArrayListEx_01 {
 		 * clear(): ArrayList의 모든 값을 삭제할 때 사용 된다. 
 		 * remove() : 값을 하나씩 제거할때 사용한다. 
 		 */
-		
-		al.remove("Hello"); 
-		System.out.println("1번 삭제 : " + al);
-		
-		al.remove(1); 
-		System.out.println("2번 삭제 : " + al);
-		
-		al.clear(); 
-		System.out.println("3번 삭제 : " + al);
-		
+//		al.remove("Hello"); 
+//		System.out.println("1번 삭제 : " + al);
+//		
+//		al.remove(1); 
+//		System.out.println("2번 삭제 : " + al);
+//		
+//		al.clear(); 
+//		System.out.println("3번 삭제 : " + al);
+
+		//ArrayList 크기 구하기 
+		//ArrayList의 크기를 구하는 방법은 size()메서드를 사용하여 구할수 있습니다. 
+		System.out.println("ArrayList의 크기 : " + al.size());
 	}
 
 }
