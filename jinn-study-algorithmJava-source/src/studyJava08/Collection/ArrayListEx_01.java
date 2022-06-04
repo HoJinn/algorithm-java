@@ -61,6 +61,13 @@ public class ArrayListEx_01 {
 		Iterator iter = al.iterator(); 
 		while(iter.hasNext()) { 
 			System.out.print(iter.next()+ " ");
+			
+		//ArrayList 값 검색하기 
+		//값을 검색하는 방법에는 contains(값이 있는지 여부만 파악)와 indexOf(값의 위치Index를 찾아주고 값이 없다면 -1출력)가 있습니다. 
+			
+			System.out.println("값 검색(contains) : " + al.contains("Hello"));
+			System.out.println("값 검색(indexOf) : " + al.indexOf("World"));
+			
 		}
 	}
 }
