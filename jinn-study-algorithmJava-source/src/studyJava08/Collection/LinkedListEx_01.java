@@ -19,6 +19,10 @@ public class LinkedListEx_01 {
 		ll.add(1, "World"); 
 		System.out.println(ll);
 		
+		//LinkedList 값 변경하기 
+		ll.set(1, "Hello"); // 값을 변경하기 위해 set()메서드를 사용합니다. (index를 알아야 변경이 가능합니다. )
+		
+		System.out.println(ll);
 		
 	}
 
