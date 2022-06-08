@@ -16,6 +16,9 @@ public class LinkedListEx_01 {
 		//LinkedList값을 추가하기 [add(), add(Object)  
 		ll.add("Hello"); 
 		ll.add("Hello"); 
+		ll.add("Hello"); 
+		ll.add("Hello"); 
+		ll.add("Hello"); 
 		ll.add(1, "World"); 
 		System.out.println(ll);
 		
@@ -24,6 +27,23 @@ public class LinkedListEx_01 {
 		
 		System.out.println(ll);
 		
+		//LinkedList 값 삭제하기 
+		ll.removeFirst(); // 첫 번째 데이터 삭제 
+		ll.removeLast(); // 마지막 데이터 삭제 
+		
+		System.out.println(ll);
+		
+		ll.remove(); // remove로 삭제하면 첫 번째 데이터를 삭제 
+		
+		System.out.println(ll);
+		
+		ll.remove(0); // index순번의 데이터를 삭제 
+		
+		System.out.println(ll);
+		
+		ll.clear(); // List의 모든 데이터를 삭제 
+		
+		System.out.println(ll);
 	}
 
 }
